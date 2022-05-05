@@ -32,6 +32,9 @@ int main()
     float num1, num2, num3;
     while (cin >> num1 >> num2 >> num3)
     {
+        cout << endl
+             << "Your equation: " << num1 << "x^2 + " << num2 << "x + " << num3 << " = 0" << endl;
+        cout << endl;
         quadraticEquation(num1, num2, num3);
         cout << endl;
     }
